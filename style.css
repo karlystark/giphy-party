@@ -1,0 +1,76 @@
+body {
+    display: border-box;
+    margin: 0px;
+    background-color: #00246B;
+    color: #faeee3;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+h1 {
+    font-size: 8em;
+    margin: 10px;
+    margin-bottom: -20px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container p {
+    font-size: 3em;
+    margin-top: -10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: #DC3E26;
+    color: #faeee3;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 10px 10px;
+    transition: 0.5s ease;
+}
+
+button, #submit, #search-term {
+    border-radius: 6px;
+    background-color: #faeee3;
+    font-family: "Patrick Hand SC", cursive;
+    color: #00246B;
+    padding: 0px 10px 7px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 5px solid #00246B;
+    font-size: 1em;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00246B;
+    color: #faeee3;
+}
+
+#submit:hover {
+    background-color: #00246B;
+    color: #faeee3;
+}
+
+.giphy-canvas{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+img {
+    margin: 20px;
+}
