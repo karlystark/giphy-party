@@ -1,7 +1,7 @@
 body {
     display: border-box;
     margin: 0px;
-    background-color: #00246B;
+    background-color: rgb(21, 87, 59);
     color: #faeee3;
     font-family: 'Patrick Hand SC', cursive;
 }
@@ -29,7 +29,7 @@ form {
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    background-color: #DC3E26;
+    background-color: #dec6ad;
     color: #faeee3;
     margin-left: 100px;
     margin-right: 100px;
@@ -48,19 +48,19 @@ button, #submit, #search-term {
     margin: 20px;
     text-align: center;
     text-decoration: none;
-    border: 5px solid #00246B;
+    border: 5px solid rgb(21, 87, 59);
     font-size: 1em;
     transition-duration: 0.4s;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #00246B;
+    background-color: rgb(21, 87, 59);
     color: #faeee3;
 }
 
 #submit:hover {
-    background-color: #00246B;
+    background-color: rgb(21, 87, 59);
     color: #faeee3;
 }
 
